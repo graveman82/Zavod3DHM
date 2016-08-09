@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\inc\winframework\app.h" open="1" top="0" tabpos="2">
+		<Cursor position="5638" topLine="0" />
+	</File>
+	<File name="..\..\inc\z3DLib\debugsys.h" open="1" top="0" tabpos="1">
+		<Cursor position="44108" topLine="0" />
+	</File>
+	<File name="..\..\src\winframework\app.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="5786" topLine="141" />
+	</File>
+	<File name="..\..\src\z3DLib\debugsys.cpp" open="1" top="1" tabpos="3">
+		<Cursor position="3587" topLine="153" />
+	</File>
+</CodeBlocks_layout_file>
