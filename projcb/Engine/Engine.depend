@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1470776646 source:d:\development\devprojects\zavod3dhm\src\z3dlib\debugsys.cpp
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<stdarg.h>
+	<windows.h>
+	"z3dlib/debugsys.h"
+
+1470775966 d:\development\devprojects\zavod3dhm\inc\z3dlib\debugsys.h
+
+1470941050 source:d:\development\devprojects\zavod3dhm\src\winframework\input.cpp
+	"winframework/input.h"
+	"z3DLib/debugsys.h"
+
+1470941050 d:\development\devprojects\zavod3dhm\inc\winframework\input.h
+	<vector>
+	<map>
+	<windows.h>
+
+1470941226 source:d:\development\devprojects\zavod3dhm\src\winframework\app.cpp
+	"winframework/app.h"
+	"z3dlib/debugsys.h"
+
+1470941229 d:\development\devprojects\zavod3dhm\inc\winframework\app.h
+	<windows.h>
+	"winframework/input.h"
+

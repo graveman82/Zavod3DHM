@@ -18,4 +18,5 @@ projmsvc2015/**/*.user
 *.ilk
 Release/
 Debug/
-doc/doxybuild/
+obj/
+/doc/doxybuild/

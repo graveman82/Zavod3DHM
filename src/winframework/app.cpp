@@ -48,7 +48,8 @@ App::App(const WindowsSpecParams* params) :
     winSpecParams_((params != 0) ? params->hInstance_ : ::GetModuleHandle(0),
         (params != 0) ? params->szCmdLine_ : 0,
         (params != 0) ? params->iCmdShow_ : SW_SHOWNORMAL),
-    hWnd_(0){
+    hWnd_(0),
+    inputMng_(0){
     instance_ = this;
 }
 //-----------------------------------------------------------------------------
@@ -71,6 +72,7 @@ BOOL App::Initialize(){
         Z3D_ERROR(DebugTool::kError, 0, "Create main window failed", true);
         return FALSE;
     }
+    inputMng_ = new InputManager();
     if (!proj_->Initialize()){
         return FALSE;
     }
@@ -92,6 +94,8 @@ void App::EnterLoop(){
     }
     state_ = kAppInLoop;
     while(state_ != kAppTerminating){
+        Z3D_ASSERT_HIGH(inputMng_ != 0, "input manager must exist at this moment", true);
+        inputMng_->Update();
         while(::PeekMessage(&msg, 0, 0, 0, PM_REMOVE)){
             if(msg.message == WM_QUIT){
                 state_ = kAppTerminating;
@@ -99,6 +103,7 @@ void App::EnterLoop(){
             }
             ::TranslateMessage(&msg);
             ::DispatchMessage(&msg);
+            inputMng_->HandleWindowMessage(msg);
         }
         // Если статус приложения изменился на "Завершение" во время обработки сообщений,
         // то ничего не делаем
@@ -112,6 +117,10 @@ void App::EnterLoop(){
 }
 //-----------------------------------------------------------------------------
 void App::Clear(){
+    if (inputMng_ != 0){
+        delete inputMng_;
+        inputMng_ = 0;
+    }
 }
 //-----------------------------------------------------------------------------
 LRESULT CALLBACK App::StaticWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
@@ -155,6 +164,10 @@ BOOL App::CreateMainWindow(){
     ::ShowWindow (hWnd_, winSpecParams_.iCmdShow_);
     ::UpdateWindow(hWnd_);
     return TRUE;
+}
+//-----------------------------------------------------------------------------
+InputManager* App::GetInputManager(){
+    return inputMng_;
 }
 //-----------------------------------------------------------------------------
 } // end of z3D

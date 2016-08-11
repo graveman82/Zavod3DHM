@@ -2,15 +2,21 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
 	<File name="..\..\inc\winframework\app.h" open="1" top="0" tabpos="2">
-		<Cursor position="5638" topLine="0" />
+		<Cursor position="5570" topLine="69" />
+	</File>
+	<File name="..\..\inc\winframework\input.h" open="1" top="0" tabpos="5">
+		<Cursor position="7042" topLine="112" />
 	</File>
 	<File name="..\..\inc\z3DLib\debugsys.h" open="1" top="0" tabpos="1">
 		<Cursor position="44108" topLine="0" />
 	</File>
 	<File name="..\..\src\winframework\app.cpp" open="1" top="0" tabpos="4">
-		<Cursor position="5786" topLine="141" />
+		<Cursor position="857" topLine="10" />
 	</File>
-	<File name="..\..\src\z3DLib\debugsys.cpp" open="1" top="1" tabpos="3">
-		<Cursor position="3587" topLine="153" />
+	<File name="..\..\src\winframework\input.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="158" topLine="0" />
+	</File>
+	<File name="..\..\src\z3DLib\debugsys.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="339" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

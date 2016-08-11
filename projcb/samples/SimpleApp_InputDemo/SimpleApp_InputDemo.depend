@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1470942633 source:d:\development\devprojects\zavod3dhm\sample_src\simpleapp_inputdemo\simpleapp.cpp
+	"winframework/app.h"
+	"z3DLib/debugsys.h"
+
+1470941229 d:\development\devprojects\zavod3dhm\inc\winframework\app.h
+	<windows.h>
+	"winframework/input.h"
+
+1470941050 d:\development\devprojects\zavod3dhm\inc\winframework\input.h
+	<vector>
+	<map>
+	<windows.h>
+
+1470775966 d:\development\devprojects\zavod3dhm\inc\z3dlib\debugsys.h
+

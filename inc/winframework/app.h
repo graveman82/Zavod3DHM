@@ -5,6 +5,7 @@
 It's licensed unser the MIT license (see "Licence.txt" for details).*/
 
 #include <windows.h>
+#include "winframework/input.h"
 
 namespace z3D{
 //-----------------------------------------------------------------------------
@@ -66,6 +67,8 @@ class App{
     eState state_;          ///< состояние приложения
     WindowsSpecParams winSpecParams_;/// параметры специфичные для windows-приложения
     HWND hWnd_;             ///< дескриптор окна приложения
+    InputManager* inputMng_;///< менеджер ввода
+
 
     /* Инициализация приложения.
     @return TRUE - успешно, FALSE - ошибка.*/
@@ -90,6 +93,8 @@ public:
     BOOL Run(IProject* proj);
     /// Получить указатель на приложение.
     static App* GetInstance();
+    /// Получить менеджер ввода.
+    InputManager* GetInputManager();
 };
 
 } // end of z3D

@@ -38,12 +38,15 @@
 			<Add directory="..\..\inc" />
 		</Compiler>
 		<Unit filename="..\..\inc\winframework\app.h" />
+		<Unit filename="..\..\inc\winframework\input.h" />
 		<Unit filename="..\..\inc\z3DLib\debugsys.h" />
 		<Unit filename="..\..\src\winframework\app.cpp" />
+		<Unit filename="..\..\src\winframework\input.cpp" />
 		<Unit filename="..\..\src\z3DLib\debugsys.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
+			<envvars />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
