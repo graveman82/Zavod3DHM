@@ -1,0 +1,689 @@
+# depslib dependency file v1.0
+1586782329 source:d:\development\devprojects\engines\zavod3d_heavymetal\src\lab\test1.cpp
+	"engine/core/narytree.h"
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	"engine/core/inttypes.h"
+	"engine/core/endianness.h"
+	"engine/core/utf.h"
+
+1586533357 d:\development\devprojects\engines\zavod3d_heavymetal\src\engine\core\inttypes.h
+	<stdint.h>
+
+1586787923 d:\development\devprojects\engines\zavod3d_heavymetal\src\engine\core\endianness.h
+	"engine/core/inttypes.h"
+
+1586789445 d:\development\devprojects\engines\zavod3d_heavymetal\src\engine\core\utf.h
+	"engine/core/endianness.h"
+
+1586788261 source:d:\development\devprojects\engines\zavod3d_heavymetal\src\engine\core\utf.cpp
+	"engine/core/inttypes.h"
+	"engine/core/endianness.h"
+	"engine/core/utf.h"
+
+1586543564 d:\development\devprojects\engines\zavod3d_heavymetal\src\engine\core\narytree.h
+	<boost/intrusive/list.hpp>
+	<string>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\list.hpp
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/intrusive_fwd.hpp>
+	<boost/intrusive/detail/assert.hpp>
+	<boost/intrusive/list_hook.hpp>
+	<boost/intrusive/circular_list_algorithms.hpp>
+	<boost/intrusive/pointer_traits.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/link_mode.hpp>
+	<boost/intrusive/detail/get_value_traits.hpp>
+	<boost/intrusive/detail/is_stateful_value_traits.hpp>
+	<boost/intrusive/detail/default_header_holder.hpp>
+	<boost/intrusive/detail/reverse_iterator.hpp>
+	<boost/intrusive/detail/uncast.hpp>
+	<boost/intrusive/detail/list_iterator.hpp>
+	<boost/intrusive/detail/array_initializer.hpp>
+	<boost/intrusive/detail/exception_disposer.hpp>
+	<boost/intrusive/detail/equal_to_value.hpp>
+	<boost/intrusive/detail/key_nodeptr_comp.hpp>
+	<boost/intrusive/detail/simple_disposers.hpp>
+	<boost/intrusive/detail/size_holder.hpp>
+	<boost/intrusive/detail/algorithm.hpp>
+	<boost/move/utility_core.hpp>
+	<boost/static_assert.hpp>
+	<boost/intrusive/detail/minimal_less_equal_header.hpp>
+	<cstddef>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\config_begin.hpp
+	<boost/config.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config.hpp
+	<boost/config/user.hpp>
+	<boost/config/detail/select_compiler_config.hpp>
+	<boost/config/detail/select_stdlib_config.hpp>
+	<boost/config/detail/select_platform_config.hpp>
+	<boost/config/detail/suffix.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\user.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\detail\select_compiler_config.hpp
+	"boost/config/compiler/nvcc.hpp"
+	<boost/config/compiler/gcc_xml.hpp>
+	<boost/config/compiler/cray.hpp>
+	<boost/config/compiler/comeau.hpp>
+	<boost/config/compiler/pathscale.hpp>
+	<boost/config/compiler/intel.hpp>
+	<boost/config/compiler/clang.hpp>
+	<boost/config/compiler/digitalmars.hpp>
+	<boost/config/compiler/gcc.hpp>
+	<boost/config/compiler/kai.hpp>
+	<boost/config/compiler/sgi_mipspro.hpp>
+	<boost/config/compiler/compaq_cxx.hpp>
+	<boost/config/compiler/greenhills.hpp>
+	<boost/config/compiler/codegear.hpp>
+	<boost/config/compiler/borland.hpp>
+	<boost/config/compiler/metrowerks.hpp>
+	<boost/config/compiler/sunpro_cc.hpp>
+	<boost/config/compiler/hp_acc.hpp>
+	<boost/config/compiler/mpw.hpp>
+	<boost/config/compiler/xlcpp_zos.hpp>
+	<boost/config/compiler/xlcpp.hpp>
+	<boost/config/compiler/vacpp.hpp>
+	<boost/config/compiler/pgi.hpp>
+	<boost/config/compiler/visualc.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\nvcc.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\gcc_xml.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\cray.hpp
+	<boost/config/compiler/common_edg.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\common_edg.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\comeau.hpp
+	<boost/config/compiler/common_edg.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\pathscale.hpp
+	"boost/config/compiler/clang.hpp"
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\clang.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\intel.hpp
+	<boost/config/compiler/visualc.hpp>
+	<boost/config/compiler/gcc.hpp>
+	<boost/config/compiler/common_edg.hpp>
+	<cwchar>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\visualc.hpp
+	<boost/config/pragma_message.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\pragma_message.hpp
+	<boost/config/helper_macros.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\helper_macros.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\gcc.hpp
+	<cstddef>
+	<stddef.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\digitalmars.hpp
+	<cstddef>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\kai.hpp
+	<boost/config/compiler/common_edg.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\sgi_mipspro.hpp
+	<boost/config/compiler/common_edg.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\compaq_cxx.hpp
+	<boost/config/compiler/common_edg.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\greenhills.hpp
+	<boost/config/compiler/common_edg.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\codegear.hpp
+	<cstring>
+	<errno.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\borland.hpp
+	<climits>
+	<cwchar>
+	<limits.h>
+	<wchar.h>
+	<cstring>
+	<errno.h>
+	<float.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\metrowerks.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\sunpro_cc.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\hp_acc.hpp
+	<boost/config/compiler/common_edg.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\mpw.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\xlcpp_zos.hpp
+	<features.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\xlcpp.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\vacpp.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\compiler\pgi.hpp
+	<boost/config/compiler/gcc.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\detail\select_stdlib_config.hpp
+	<cstddef>
+	<stddef.h>
+	<utility>
+	"boost/config/stdlib/stlport.hpp"
+	"boost/config/stdlib/libcomo.hpp"
+	"boost/config/stdlib/roguewave.hpp"
+	"boost/config/stdlib/libcpp.hpp"
+	"boost/config/stdlib/libstdcpp3.hpp"
+	"boost/config/stdlib/sgi.hpp"
+	"boost/config/stdlib/msl.hpp"
+	"boost/config/stdlib/xlcpp_zos.hpp"
+	"boost/config/stdlib/vacpp.hpp"
+	"boost/config/stdlib/modena.hpp"
+	"boost/config/stdlib/dinkumware.hpp"
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\stlport.hpp
+	<cstddef>
+	<unistd.h>
+	<stdlib.h>
+	<string.h>
+	<algorithm>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\libcomo.hpp
+	<boost/config/no_tr1/utility.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\no_tr1\utility.hpp
+	<utility>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\roguewave.hpp
+	<boost/config/no_tr1/utility.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\libcpp.hpp
+	<ciso646>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\libstdcpp3.hpp
+	<unistd.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\sgi.hpp
+	<boost/config/no_tr1/utility.hpp>
+	<unistd.h>
+	<string>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\msl.hpp
+	<boost/config/no_tr1/utility.hpp>
+	<cstddef>
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\detail\posix_features.hpp
+	<unistd.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\xlcpp_zos.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\vacpp.hpp
+	<unistd.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\modena.hpp
+	<boost/config/no_tr1/utility.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\stdlib\dinkumware.hpp
+	<boost/config/no_tr1/utility.hpp>
+	<exception>
+	<typeinfo>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\detail\select_platform_config.hpp
+	<boost/config/detail/posix_features.hpp>
+	"boost/config/platform/linux.hpp"
+	"boost/config/platform/bsd.hpp"
+	"boost/config/platform/solaris.hpp"
+	"boost/config/platform/irix.hpp"
+	"boost/config/platform/hpux.hpp"
+	"boost/config/platform/cygwin.hpp"
+	"boost/config/platform/win32.hpp"
+	"boost/config/platform/beos.hpp"
+	"boost/config/platform/macos.hpp"
+	"boost/config/platform/zos.hpp"
+	"boost/config/platform/aix.hpp"
+	"boost/config/platform/amigaos.hpp"
+	"boost/config/platform/qnxnto.hpp"
+	"boost/config/platform/vxworks.hpp"
+	"boost/config/platform/symbian.hpp"
+	"boost/config/platform/cray.hpp"
+	"boost/config/platform/vms.hpp"
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\linux.hpp
+	<cstdlib>
+	<stdlib.h>
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\bsd.hpp
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\solaris.hpp
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\irix.hpp
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\hpux.hpp
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\cygwin.hpp
+	<unistd.h>
+	<sys/types.h>
+	<pthread.h>
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\win32.hpp
+	<_mingw.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\beos.hpp
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\macos.hpp
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\zos.hpp
+	<features.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\aix.hpp
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\amigaos.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\qnxnto.hpp
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\vxworks.hpp
+	<version.h>
+	<time.h>
+	<sysLib.h>
+	<cstdint>
+	<sys/time.h>
+	<ioLib.h>
+	<tickLib.h>
+	<signal.h>
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\symbian.hpp
+	<cstdlib>
+	<stdlib.h>
+	<boost/config/detail/posix_features.hpp>
+	<sys/endian.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\cray.hpp
+	<boost/config/detail/posix_features.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\platform\vms.hpp
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\detail\suffix.hpp
+	<limits.h>
+	<cstddef>
+	<typeinfo>
+	<boost/config/helper_macros.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\intrusive_fwd.hpp
+	<boost/config.hpp>
+	<boost/cstdint.hpp>
+	<cstddef>
+	<boost/intrusive/link_mode.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\cstdint.hpp
+	<boost/config.hpp>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<boost/limits.hpp>
+	<limits.h>
+	<stddef.h>
+	<limits.h>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\limits.hpp
+	<boost/config.hpp>
+	<limits>
+	<climits>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\link_mode.hpp
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\workaround.hpp
+	<boost/config.hpp>
+	<boost/config.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\assert.hpp
+	<boost/config.hpp>
+	<boost/assert.hpp>
+	<boost/assert.hpp>
+	<boost/assert.hpp>
+
+1544039895 d:\development\sourcecode\libs\boost_1_69_0\boost\assert.hpp
+	<boost/config.hpp>
+	<boost/current_function.hpp>
+	<assert.h>
+
+1544039895 d:\development\sourcecode\libs\boost_1_69_0\boost\current_function.hpp
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\list_hook.hpp
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/intrusive_fwd.hpp>
+	<boost/intrusive/detail/list_node.hpp>
+	<boost/intrusive/circular_list_algorithms.hpp>
+	<boost/intrusive/options.hpp>
+	<boost/intrusive/detail/generic_hook.hpp>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\list_node.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/intrusive/pointer_rebind.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\pointer_rebind.hpp
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/config.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\circular_list_algorithms.hpp
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/intrusive_fwd.hpp>
+	<boost/intrusive/detail/algo_type.hpp>
+	<boost/core/no_exceptions_support.hpp>
+	<cstddef>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\algo_type.hpp
+	<boost/config.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\core\no_exceptions_support.hpp
+	<boost/config.hpp>
+	<boost/config/workaround.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\config\workaround.hpp
+	<boost/config.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\config_end.hpp
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\options.hpp
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/intrusive_fwd.hpp>
+	<boost/intrusive/link_mode.hpp>
+	<boost/intrusive/pack_options.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\pack_options.hpp
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\mpl.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/move/detail/type_traits.hpp>
+	<cstddef>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\type_traits.hpp
+	<boost/config.hpp>
+	<boost/move/detail/config_begin.hpp>
+	<boost/move/detail/workaround.hpp>
+	<boost/move/detail/meta_utils.hpp>
+	<boost/assert.hpp>
+	<boost/static_assert.hpp>
+	<cstddef>
+	<msl_utility>
+	<boost/move/detail/config_end.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\config_begin.hpp
+	<boost/config.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\workaround.hpp
+	<boost/config.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\meta_utils.hpp
+	<boost/move/detail/config_begin.hpp>
+	<boost/move/detail/workaround.hpp>
+	<boost/move/detail/meta_utils_core.hpp>
+	<cstddef>
+	<boost/move/detail/config_end.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\meta_utils_core.hpp
+	<boost/config.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\config_end.hpp
+
+1544039903 d:\development\sourcecode\libs\boost_1_69_0\boost\static_assert.hpp
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+
+1544039896 d:\development\sourcecode\libs\boost_1_69_0\boost\detail\workaround.hpp
+	<boost/config/workaround.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\generic_hook.hpp
+	<boost/config.hpp>
+	<boost/intrusive/pointer_traits.hpp>
+	<boost/intrusive/link_mode.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/detail/assert.hpp>
+	<boost/intrusive/detail/node_holder.hpp>
+	<boost/intrusive/detail/algo_type.hpp>
+	<boost/static_assert.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\pointer_traits.hpp
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/intrusive/pointer_rebind.hpp>
+	<boost/move/detail/pointer_element.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<cstddef>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\pointer_element.hpp
+	<boost/config.hpp>
+	<boost/move/detail/workaround.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\node_holder.hpp
+	<boost/config.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\get_value_traits.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/detail/hook_traits.hpp>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\hook_traits.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/intrusive/pointer_traits.hpp>
+	<boost/intrusive/detail/parent_from_member.hpp>
+	<boost/intrusive/link_mode.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/move/detail/to_raw_pointer.hpp>
+	<boost/intrusive/detail/node_holder.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\parent_from_member.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<cstddef>
+	<boost/static_assert.hpp>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\to_raw_pointer.hpp
+	<boost/config.hpp>
+	<boost/move/detail/config_begin.hpp>
+	<boost/move/detail/workaround.hpp>
+	<boost/move/detail/pointer_element.hpp>
+	<boost/move/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\is_stateful_value_traits.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/detail/function_detector.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\function_detector.hpp
+	<boost/config.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\default_header_holder.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/intrusive/pointer_traits.hpp>
+	<boost/move/detail/to_raw_pointer.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\reverse_iterator.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/detail/iterator.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\iterator.hpp
+	<boost/config.hpp>
+	<cstddef>
+	<boost/intrusive/detail/std_fwd.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/move/detail/iterator_traits.hpp>
+	<boost/move/detail/meta_utils_core.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\std_fwd.hpp
+	<boost/config.hpp>
+	<boost/move/detail/std_ns_begin.hpp>
+	<boost/move/detail/std_ns_end.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\std_ns_begin.hpp
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\std_ns_end.hpp
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\detail\iterator_traits.hpp
+	<boost/config.hpp>
+	<cstddef>
+	<boost/move/detail/type_traits.hpp>
+	<boost/move/detail/std_ns_begin.hpp>
+	<boost/move/detail/std_ns_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\uncast.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/config_begin.hpp>
+	<boost/intrusive/pointer_traits.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\list_iterator.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/intrusive/detail/std_fwd.hpp>
+	<boost/intrusive/detail/iiterator.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\iiterator.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/intrusive/detail/iterator.hpp>
+	<boost/intrusive/pointer_traits.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/detail/is_stateful_value_traits.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\array_initializer.hpp
+	<boost/config.hpp>
+	<boost/config.hpp>
+	<boost/core/no_exceptions_support.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\exception_disposer.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\equal_to_value.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\key_nodeptr_comp.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/detail/ebo_functor_holder.hpp>
+	<boost/intrusive/detail/tree_value_compare.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\ebo_functor_holder.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/move/utility_core.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\utility_core.hpp
+	<boost/config.hpp>
+	<boost/move/detail/config_begin.hpp>
+	<boost/move/detail/workaround.hpp>
+	<boost/move/core.hpp>
+	<boost/move/detail/meta_utils.hpp>
+	<boost/static_assert.hpp>
+	<utility>
+	<boost/move/detail/config_end.hpp>
+
+1544039900 d:\development\sourcecode\libs\boost_1_69_0\boost\move\core.hpp
+	<boost/config.hpp>
+	<boost/move/detail/config_begin.hpp>
+	<boost/move/detail/workaround.hpp>
+	<boost/move/detail/type_traits.hpp>
+	<boost/move/detail/meta_utils.hpp>
+	<boost/move/detail/config_end.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\tree_value_compare.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+	<boost/intrusive/detail/mpl.hpp>
+	<boost/intrusive/detail/ebo_functor_holder.hpp>
+	<boost/intrusive/pointer_traits.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\simple_disposers.hpp
+	<boost/config.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\size_holder.hpp
+	<boost/config.hpp>
+	<boost/intrusive/detail/workaround.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\algorithm.hpp
+	<boost/config.hpp>
+
+1544039899 d:\development\sourcecode\libs\boost_1_69_0\boost\intrusive\detail\minimal_less_equal_header.hpp
+	<boost/config.hpp>
+	<bits/stl_function.h>
+	<functional>
+
+1586789445 source:d:\development\devprojects\engines\zavod3dhm\src\lab\test1.cpp
+	"engine/core/narytree.h"
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	"engine/core/inttypes.h"
+	"engine/core/endianness_file.h"
+	"engine/core/utf.h"
+
+1586790792 source:d:\development\devprojects\engines\zavod3dhm\src\z3dlib\debugsys.cpp
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<stdarg.h>
+	<windows.h>
+	"z3dlib/debugsys.h"
+
+1586790792 d:\development\devprojects\engines\zavod3dhm\inc\z3dlib\debugsys.h
+
+1586791536 source:d:\development\devprojects\engines\zavod3dhm\src\z3dlib\utf.cpp
+	"z3DLib/inttypes.h"
+	"z3DLib/endianness.h"
+	"z3DLib/utf.h"
+
+1586791536 d:\development\devprojects\engines\zavod3dhm\inc\z3dlib\inttypes.h
+	<stdint.h>
+
+1586791536 d:\development\devprojects\engines\zavod3dhm\inc\z3dlib\endianness.h
+	"z3DLib/inttypes.h"
+
+1586791536 d:\development\devprojects\engines\zavod3dhm\inc\z3dlib\utf.h
+	"z3DLib/endianness.h"
+

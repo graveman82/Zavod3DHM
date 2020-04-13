@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\src\engine\core\endianness.h" open="1" top="0" tabpos="3">
+		<Cursor position="151" topLine="0" />
+	</File>
+	<File name="..\..\src\engine\core\endianness_file.h" open="1" top="0" tabpos="6">
+		<Cursor position="1634" topLine="29" />
+	</File>
+	<File name="..\..\src\engine\core\inttypes.h" open="1" top="0" tabpos="2">
+		<Cursor position="499" topLine="0" />
+	</File>
+	<File name="..\..\src\engine\core\utf.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="550" topLine="0" />
+	</File>
+	<File name="..\..\src\engine\core\utf.h" open="1" top="0" tabpos="4">
+		<Cursor position="894" topLine="0" />
+	</File>
+	<File name="..\..\src\lab\test1.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1588" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
